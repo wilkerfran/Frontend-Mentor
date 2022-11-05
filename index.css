@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Montserrat'; /*a name to be used later*/
+    src: url('https://fonts.google.com/specimen/Montserrat'); /*URL to font*/
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, and, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+	background:transparent;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height:1;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+/*blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:none;
+}*/
+del {
+	text-decoration:line-through;
+}
+hr {
+	background:transparent;
+	border:0;
+	clear:both;
+	color:transparent;
+	height:1px;
+	margin:0;
+	padding:0;
+}
+mark {
+	background-color:#ffffb3;
+	font-style:italic
+}
+input, select {
+	vertical-align:middle;
+}
+ins {
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+ol, ul {
+	list-style:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+
+/* End-Reset */
+
+
+.center-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main-window {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.midlle-card {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 10%;
+    width: 40em;
+    height: 30em;
+    
+}
+
+.img-card{
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    height: 100%;
+}
+
+.margin-all {
+    padding: 3%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.text-adjust h3{
+ font-family: 'Montserrat';   
+ color: darkgray;
+ font-size: 20px;
+ line-height: 3.8;
+ letter-spacing: 5px;
+ 
+}
+
+.text-adjust h1 {
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 40px;
+ margin-bottom: 15px;
+ 
+}
+
+
+
+.text-adjust p {
+    color: darkgray;
+
+}
+
+.price {
+    display: flex;
+}
+
+.price h2 {
+    margin-top: 5px;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+}
+
+.price h5{
+    color: darkgray;
+    margin-left: 5%;
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+}
